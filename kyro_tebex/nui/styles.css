@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Orbitron, Orbitron;
+  background-color: rgba(40, 44, 52, 0.0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.code-input-menu {
+  display: none; 
+  position: fixed;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 400px; 
+  padding: 30px; 
+  border: 2px solid white; 
+  background-color: rgba(0, 0, 0, 0.8); 
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 1001; 
+}
+
+.code-input-content {
+  text-align: center;
+}
+
+.code-input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.code-button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #2afa00;
+  border: 2px solid rgb(255, 255, 255); 
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px #999;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.code-button:hover {
+  background-color: #055102;
+}
+
+.notification {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffcc00;
+  color: black;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.web-button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #000ac9;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+
+  border: 2px solid rgb(255, 255, 255);
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: 0 4px #999; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.web-button:hover {
+  background-color: #07ffd2;
+  box-shadow: 0 4px #666;
+}
+
+.web-button:active {
+  background-color: #010569;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px); 
+}
+
+.balance {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}

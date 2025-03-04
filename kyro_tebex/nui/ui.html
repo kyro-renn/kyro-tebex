@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Menu</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div id="menu">
+ 
+        <div id="code-input-menu" class="code-input-menu">
+            <div class="code-input-content">
+                <p>Enter Code:</p>
+                <input type="text" id="code-input" class="code-input" placeholder="tbx-123456789-123456">
+                <button class="code-button" id="submit-code-button">Submit</button>
+                <button class="code-button" id="close-menu-button">Close</button>
+                <button class="web-button" id="open-website-button">Open Tebex</button>
+                <div id="notification" class="notification" style="display: none;"></div>
+                <div id="balance" class="balance">Balance: $0</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</html>
